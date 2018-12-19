@@ -1,0 +1,32 @@
+.searchbox {
+  padding-top: 60px;
+}
+.searchbox .container.blacker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.blacker h1 {
+  background: black;
+  padding: 20px;
+  box-shadow: 2px 2px 2px rgb(31, 31, 31);
+}
+.list-movies {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-gap: 4%;
+  grid-row-gap: 30px;
+}
+.list-movies .col {
+  background: rgb(70, 69, 69);
+  border: 1px solid black;
+  height: 200px;
+  width: 100%;
+}
+
+@media all and (max-width: 1000px) {
+  .list-movies {
+
+  }
+}
