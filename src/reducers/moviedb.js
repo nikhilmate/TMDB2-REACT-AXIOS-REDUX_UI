@@ -1,26 +1,7 @@
 let initialState = {
-  favourites : [
-    {
-      "id" : 1,
-      "type" : 'MOVIES',
-      "name" : 'AVENGERS ENDGAME',
-      "date" : 2019
-    },
-    {
-      "id" : 2,
-      "type" : "TV",
-      "name" : 'NAGIN',
-      "date" : 2018
-    }
-  ],
-  view : {
-    "id" : 1,
-    "type" : 'MOVIES',
-    "name" : 'AVENGERS ENDGAME',
-    "year" : 2019,
-    "genre" : 'FUN',
-    "description" : "avengers last part!"
-  }
+  favourites : [],
+  view : [],
+  queries : {}
 }
 
 export default (state = initialState, action) => {

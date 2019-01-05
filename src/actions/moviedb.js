@@ -8,6 +8,8 @@ export const addFavourites = (id, name, type, date) => ({
   }
 });
 
+
+
 export const changeView = (id, type, name, year, genre, description) => ({
   type : 'CHANGE_VIEW',
   view : {
